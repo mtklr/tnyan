@@ -225,6 +225,7 @@ int main (int argc, char *argv[]) {
 		draw(thecat, frame, frameheight, framewidth, yoffset, xoffset);
 	}
 
+	frame = 0;
 	busy = 1;
 
 	while (busy) {
